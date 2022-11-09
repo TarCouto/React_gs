@@ -1,0 +1,74 @@
+body{
+    background-color: #32427d;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+}
+header{
+    /*border: 1px dashed white;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    line-height: 1px;
+    text-align:center;
+    font-size: 30px;
+}
+header li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(65, 191, 241);
+    transition: 0.4s all;
+    font-weight: bold;
+}
+header span{
+    background-color: rgb(65, 191, 241);
+    padding: 10px;
+    border-radius: 20px;
+    width: 25px;
+}
+
+header span:hover{
+    background-color: white;
+    color: rgb(65, 191, 241);
+    cursor: pointer;
+}
+header span a:hover{
+    color: rgb(65, 191, 241);
+    transition: none;
+}
+
+.principal{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.principal h3{
+    font-size: 40px;
+    line-height: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.principal p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container1{
+    /*border: 1px dashed greenyellow;*/
+    align-items: center;
+    text-align: center;
+}
